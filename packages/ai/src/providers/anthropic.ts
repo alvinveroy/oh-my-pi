@@ -1729,7 +1729,13 @@ function buildParams(
 	}
 
 	if (model.reasoning) {
-		if (options?.thinkingEnabled) {
+		// MiniMax's Anthropic-compatible endpoint ignores the `thinking` parameter
+		// but always returns thinking blocks natively. Skip sending it to align
+		// with their OpenAPI spec and avoid sending ignored/undocumented params.
+		// See: https://platform.minimax.io/docs/api-reference/text-anthropic-api
+		const isMiniMax = model.provider === "minimax" || model.provider === "minimax-cn";
+
+		if (!isMiniMax && options?.thinkingEnabled) {
 			const mode = model.thinking?.mode;
 			const requestedEffort = options.reasoning;
 			const effort =
@@ -1761,7 +1767,7 @@ function buildParams(
 					params.output_config = { effort } as typeof params.output_config;
 				}
 			}
-		} else if (options?.thinkingEnabled === false) {
+		} else if (!isMiniMax && options?.thinkingEnabled === false) {
 			params.thinking = { type: "disabled" };
 		}
 	}

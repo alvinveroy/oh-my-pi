@@ -18451,8 +18451,9 @@
 			"compat": {
 				"supportsStore": false,
 				"supportsDeveloperRole": false,
-				"thinkingFormat": "zai",
-				"reasoningContentField": "reasoning_content"
+				"reasoningContentField": "reasoning_content",
+				"supportsReasoningEffort": false,
+				"supportsMultipleSystemMessages": false
 			},
 			"thinking": {
 				"mode": "effort",
@@ -18481,8 +18482,9 @@
 			"compat": {
 				"supportsStore": false,
 				"supportsDeveloperRole": false,
-				"thinkingFormat": "zai",
-				"reasoningContentField": "reasoning_content"
+				"reasoningContentField": "reasoning_content",
+				"supportsReasoningEffort": false,
+				"supportsMultipleSystemMessages": false
 			},
 			"thinking": {
 				"mode": "effort",
@@ -18508,8 +18510,9 @@
 			},
 			"compat": {
 				"supportsDeveloperRole": false,
-				"thinkingFormat": "zai",
-				"reasoningContentField": "reasoning_content"
+				"reasoningContentField": "reasoning_content",
+				"supportsReasoningEffort": false,
+				"supportsMultipleSystemMessages": false
 			},
 			"contextWindow": 1000000,
 			"maxTokens": 32000,
@@ -18540,8 +18543,9 @@
 			"compat": {
 				"supportsStore": false,
 				"supportsDeveloperRole": false,
-				"thinkingFormat": "zai",
-				"reasoningContentField": "reasoning_content"
+				"reasoningContentField": "reasoning_content",
+				"supportsReasoningEffort": false,
+				"supportsMultipleSystemMessages": false
 			},
 			"thinking": {
 				"mode": "effort",
@@ -18570,8 +18574,9 @@
 			"compat": {
 				"supportsStore": false,
 				"supportsDeveloperRole": false,
-				"thinkingFormat": "zai",
-				"reasoningContentField": "reasoning_content"
+				"reasoningContentField": "reasoning_content",
+				"supportsReasoningEffort": false,
+				"supportsMultipleSystemMessages": false
 			},
 			"thinking": {
 				"mode": "effort",
@@ -18597,8 +18602,9 @@
 			},
 			"compat": {
 				"supportsDeveloperRole": false,
-				"thinkingFormat": "zai",
-				"reasoningContentField": "reasoning_content"
+				"reasoningContentField": "reasoning_content",
+				"supportsReasoningEffort": false,
+				"supportsMultipleSystemMessages": false
 			},
 			"contextWindow": 204800,
 			"maxTokens": 32000,
@@ -18629,8 +18635,9 @@
 			"compat": {
 				"supportsStore": false,
 				"supportsDeveloperRole": false,
-				"thinkingFormat": "zai",
-				"reasoningContentField": "reasoning_content"
+				"reasoningContentField": "reasoning_content",
+				"supportsReasoningEffort": false,
+				"supportsMultipleSystemMessages": false
 			},
 			"thinking": {
 				"mode": "effort",
@@ -18659,8 +18666,9 @@
 			"compat": {
 				"supportsStore": false,
 				"supportsDeveloperRole": false,
-				"thinkingFormat": "zai",
-				"reasoningContentField": "reasoning_content"
+				"reasoningContentField": "reasoning_content",
+				"supportsReasoningEffort": false,
+				"supportsMultipleSystemMessages": false
 			},
 			"thinking": {
 				"mode": "effort",
@@ -18691,8 +18699,9 @@
 			"compat": {
 				"supportsStore": false,
 				"supportsDeveloperRole": false,
-				"thinkingFormat": "zai",
-				"reasoningContentField": "reasoning_content"
+				"reasoningContentField": "reasoning_content",
+				"supportsReasoningEffort": false,
+				"supportsMultipleSystemMessages": false
 			},
 			"thinking": {
 				"mode": "effort",
@@ -18721,8 +18730,9 @@
 			"compat": {
 				"supportsStore": false,
 				"supportsDeveloperRole": false,
-				"thinkingFormat": "zai",
-				"reasoningContentField": "reasoning_content"
+				"reasoningContentField": "reasoning_content",
+				"supportsReasoningEffort": false,
+				"supportsMultipleSystemMessages": false
 			},
 			"thinking": {
 				"mode": "effort",
@@ -18748,8 +18758,9 @@
 			},
 			"compat": {
 				"supportsDeveloperRole": false,
-				"thinkingFormat": "zai",
-				"reasoningContentField": "reasoning_content"
+				"reasoningContentField": "reasoning_content",
+				"supportsReasoningEffort": false,
+				"supportsMultipleSystemMessages": false
 			},
 			"contextWindow": 1000000,
 			"maxTokens": 32000,
@@ -18780,8 +18791,9 @@
 			"compat": {
 				"supportsStore": false,
 				"supportsDeveloperRole": false,
-				"thinkingFormat": "zai",
-				"reasoningContentField": "reasoning_content"
+				"reasoningContentField": "reasoning_content",
+				"supportsReasoningEffort": false,
+				"supportsMultipleSystemMessages": false
 			},
 			"thinking": {
 				"mode": "effort",
@@ -18810,8 +18822,9 @@
 			"compat": {
 				"supportsStore": false,
 				"supportsDeveloperRole": false,
-				"thinkingFormat": "zai",
-				"reasoningContentField": "reasoning_content"
+				"reasoningContentField": "reasoning_content",
+				"supportsReasoningEffort": false,
+				"supportsMultipleSystemMessages": false
 			},
 			"thinking": {
 				"mode": "effort",
@@ -18837,8 +18850,9 @@
 			},
 			"compat": {
 				"supportsDeveloperRole": false,
-				"thinkingFormat": "zai",
-				"reasoningContentField": "reasoning_content"
+				"reasoningContentField": "reasoning_content",
+				"supportsReasoningEffort": false,
+				"supportsMultipleSystemMessages": false
 			},
 			"contextWindow": 204800,
 			"maxTokens": 32000,
@@ -18869,8 +18883,9 @@
 			"compat": {
 				"supportsStore": false,
 				"supportsDeveloperRole": false,
-				"thinkingFormat": "zai",
-				"reasoningContentField": "reasoning_content"
+				"reasoningContentField": "reasoning_content",
+				"supportsReasoningEffort": false,
+				"supportsMultipleSystemMessages": false
 			},
 			"thinking": {
 				"mode": "effort",
@@ -18899,8 +18914,9 @@
 			"compat": {
 				"supportsStore": false,
 				"supportsDeveloperRole": false,
-				"thinkingFormat": "zai",
-				"reasoningContentField": "reasoning_content"
+				"reasoningContentField": "reasoning_content",
+				"supportsReasoningEffort": false,
+				"supportsMultipleSystemMessages": false
 			},
 			"thinking": {
 				"mode": "effort",

@@ -589,6 +589,12 @@ export interface OpenAICompat {
 	vercelGatewayRouting?: VercelGatewayRouting;
 	/** Extra fields to include in request body (e.g. gateway routing hints for OpenClaw-style proxies). */
 	extraBody?: Record<string, unknown>;
+	/**
+	 * Whether the provider supports multiple `system` messages in the messages
+	 * array. When false, multiple system prompts are merged into a single
+	 * message with newline separators. Default: true.
+	 */
+	supportsMultipleSystemMessages?: boolean;
 	/** Whether the provider supports the `strict` field in tool definitions. Default: auto-detected per provider/baseUrl (conservative for unknown providers). */
 	supportsStrictMode?: boolean;
 	/** Whether tool schemas must be sent either all strict or all non-strict. Undefined keeps the existing per-tool mixed behavior. */

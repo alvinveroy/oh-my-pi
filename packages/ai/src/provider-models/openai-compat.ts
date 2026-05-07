@@ -2112,16 +2112,18 @@ const MODELS_DEV_PROVIDER_DESCRIPTORS_CODING_PLANS: readonly ModelsDevProviderDe
 		compat: {
 			supportsStore: false,
 			supportsDeveloperRole: false,
-			thinkingFormat: "zai",
+			supportsMultipleSystemMessages: false,
 			reasoningContentField: "reasoning_content",
+			supportsReasoningEffort: false,
 		},
 	}),
 	openAiCompletionsDescriptor("minimax-cn-coding-plan", "minimax-code-cn", "https://api.minimaxi.com/v1", {
 		compat: {
 			supportsStore: false,
 			supportsDeveloperRole: false,
-			thinkingFormat: "zai",
+			supportsMultipleSystemMessages: false,
 			reasoningContentField: "reasoning_content",
+			supportsReasoningEffort: false,
 		},
 	}),
 	// --- Alibaba Coding Plan ---
